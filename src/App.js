@@ -5,6 +5,9 @@ import Home from "./components/home";
 import Work from "./components/work";
 import About from "./components/about";
 import Contact from "./components/contact";
+import Loader from "./components/loader";
+//TODO : UODATE MONTAINBG
+import mountainBG from "./assets/mountainBg.jpg";
 
 function App() {
   return (
@@ -12,21 +15,26 @@ function App() {
       <div className="App">
         {/* NAV */}
         <Navbar />
+
         {/* PAGES */}
-        <Switch>
-          <Route path="/work">
-            <Work />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        {mountainBG ? (
+          <Switch>
+            <Route path="/work">
+              <Work />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/">
+              <Home mountainBG="{montainBG}" />
+            </Route>
+          </Switch>
+        ) : (
+          <Loader />
+        )}
       </div>
     </Router>
   );
