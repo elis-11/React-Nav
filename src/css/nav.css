@@ -1,0 +1,26 @@
+/* NAV COMPONENT */
+.nav {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border: solid 1px red;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav li {
+  padding: 5px;
+  margin: 10px;
+}
+
+.nav li .nav-link {
+  color: var(--main-bright);
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px var(--main-dark);
+}
+
+.nav li .nav-link:hover {
+  color: var(--main-grey);
+}
