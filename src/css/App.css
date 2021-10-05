@@ -15,7 +15,9 @@
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background-color: var(--main-color);
+  /* background-color: var(--main-rosa); */
+  background-color: var(--main-link);
+  /* background-color: var(--main-color); */
   color: var(--main-bright);
 }
 .page-component h2 {
