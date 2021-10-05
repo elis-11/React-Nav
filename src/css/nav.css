@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   position: absolute;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   top: 0;
   right: 0;
   left: 0;
