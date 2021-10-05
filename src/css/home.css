@@ -10,18 +10,17 @@
   color: var(--main-bright);
   font-size: 22px;
   font-weight: bold;
-  background-color: var(--main-bright);
+  background-color: none;
   text-decoration: none;
-  transition: all 0.5s easy;
   text-shadow: 2px 2px 4px var(--main-dark);
+  transition: all 0.5s easy;
 }
 
 .call-to-action-contact-link:hover {
   border: solid 1px var(--main-bright);
   color: var(--main-bright);
-  font-size: 22px;
+  /* font-size: 22px; */
   background-color: var(--main-bright);
-  text-decoration: none;
   box-shadow: 0 0 10px var(--main-bright);
   text-shadow: none;
 }

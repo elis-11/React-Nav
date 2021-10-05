@@ -9,7 +9,7 @@ function Home(props) {
     >
       <h2>React Router</h2>
       <Link className="call-to-action-contact-link" to="/contact">
-        Here me
+        Hire me
       </Link>
     </div>
   );

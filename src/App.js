@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
@@ -6,8 +6,8 @@ import Work from "./components/work";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Loader from "./components/loader";
-//TODO : UODATE MONTAINBG
-import mountainBG from "./assets/mountainBg.jpg";
+//TODO : UPDATE MONTAINBG
+import mountainBG from "./assets/mountain-bg.jpg";
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
               <Contact />
             </Route>
             <Route path="/">
-              <Home mountainBG="{montainBG}" />
+              <Home mountainBG={mountainBG} />
             </Route>
           </Switch>
         ) : (
