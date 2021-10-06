@@ -1,4 +1,4 @@
-import "./css/App.css";
+import "./scss/App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* NAV */}
+        {/* NAVBAR */}
         <Navbar />
         {/* PAGES */}
         {mountainBG ? (

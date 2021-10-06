@@ -1,15 +1,15 @@
 .loader-component {
   display: flex;
-}
 
-.loader-component div {
-  margin: 5px;
-  width: 15px;
-  height: 15px;
-  background-color: var(--main-dark);
-  border-radius: 50%;
-  animation-duration: 0.8s;
-  animation-iteration-count: infinite;
+  div {
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: var(--main-dark);
+    border-radius: 50%;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+  }
 }
 
 .one {

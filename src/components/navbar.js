@@ -1,32 +1,32 @@
 import { Link } from "react-router-dom";
-import "../css/nav.css";
+import "../scss/navbar.scss";
 
 function Navbar() {
   return (
-    <nav>
-      <ul className="nav">
+    <navbar>
+      <ul className="navbar">
         <li>
-          <Link className="nav-link" to="/">
+          <Link className="navbar-link" to="/">
             <h1>HOME</h1>
           </Link>
         </li>
         <li>
-          <Link className="nav-link" to="/projects">
+          <Link className="navbar-link" to="/projects">
             Projects
           </Link>
         </li>
         <li>
-          <Link className="nav-link" to="/about">
+          <Link className="navbar-link" to="/about">
             About
           </Link>
         </li>
         <li>
-          <Link className="nav-link" to="/contact">
+          <Link className="navbar-link" to="/contact">
             Contact
           </Link>
         </li>
       </ul>
-    </nav>
+    </navbar>
   );
 }
 
