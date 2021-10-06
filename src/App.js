@@ -15,12 +15,10 @@ function App() {
       <div className="App">
         {/* NAV */}
         <Navbar />
-
         {/* PAGES */}
         {mountainBG ? (
           <Switch>
             <Route path="/projects">
-              Projects
               <Projects />
             </Route>
             <Route path="/about">
