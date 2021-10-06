@@ -2,12 +2,12 @@ import "./css/App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
-import Work from "./components/work";
+import Projects from "./components/projects";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Loader from "./components/loader";
-//TODO : UPDATE MONTAINBG
 import mountainBG from "./assets/mountain-bg.jpg";
+//TODO : UPDATE MONTAINBG
 
 function App() {
   return (
@@ -19,8 +19,9 @@ function App() {
         {/* PAGES */}
         {mountainBG ? (
           <Switch>
-            <Route path="/work">
-              <Work />
+            <Route path="/projects">
+              Projects
+              <Projects />
             </Route>
             <Route path="/about">
               <About />
