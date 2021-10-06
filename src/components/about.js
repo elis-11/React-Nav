@@ -3,25 +3,40 @@ import Skills from "./skills";
 
 const skillsArray = [
   {
-    icon: "",
+    icon: "fab fa-dev",
     title: "Web Developer",
-    descriptionText: "",
-    programmingLanguages: ["", "", ""],
-    tools: ["", "", ""],
+    descriptionText:
+      "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
+    listTitle: "Languages",
+    list: ["Html", "CSS", "JS"],
+    toolsTitle: "Dev Tools",
+    tools: ["Bootstrap", "Codepen", "Github", "Gitlab"],
   },
   {
-    icon: "",
-    title: "",
-    descriptionText: "",
-    programmingLanguages: ["", "", ""],
-    tools: ["", "", ""],
+    icon: "fas fa-magic",
+    title: "Web Designer",
+    descriptionText:
+      "I value simple content structure, clean design patterns, and thoughtful interactions.",
+    listTitle: "Things I enjoy designing",
+    list: ["UX", "UI", "Logos", "Apps"],
+    toolsTitle: "Design Tools",
+    tools: ["Figma", "Pen&Paper", "Webflow"],
   },
   {
-    icon: "",
-    title: "",
-    descriptionText: "",
-    programmingLanguages: ["", "", ""],
-    tools: ["", "", ""],
+    icon: "fas fa-bullhorn",
+    title: "Digital Marketing",
+    descriptionText:
+      "I genuinely care about people, and love helping fellow designers work on their craft.",
+    listTitle: "Skills",
+    list: [
+      "Affiliate Marketing",
+      "SEO",
+      "Email Marketing",
+      "Costumer Service",
+      "Paid Social Media",
+    ],
+    toolsTitle: "Digital Marketing Tools",
+    tools: ["Google", "Instagram"],
   },
 ];
 
@@ -37,12 +52,12 @@ function About() {
         <p></p>
       </div>
       <div className="skills-card-wrapper">
-        {skillsArray.map((skillsCardEl, index)=>{
-          return <Skills killsCardEl={skillsCardEl} key={index} />
+        {skillsArray.map((skillsCardEl, index) => {
+          return <Skills skillsCardEl={skillsCardEl} key={index} />;
         })}
       </div>
     </div>
-  )
+  );
 }
 
 export default About;

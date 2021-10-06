@@ -11,11 +11,8 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="i"
-              alt="Stack Overflow icon"
-              src="https://img.icons8.com/color/45/000000/stackoverflow.png"
-            />
+            <i className="fa fa-stack-overflow" aria-hidden="true"></i>
+            {/* src="https://img.icons8.com/color/45/000000/stackoverflow.png" */}
           </a>
         </li>
         <li>
@@ -24,11 +21,8 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="i"
-              alt="Github icon"
-              src="https://img.icons8.com/nolan/46/github.png"
-            />
+            <i className="fab fa-github" aria-hidden="true"></i>
+            {/* src="https://img.icons8.com/nolan/46/github.png" */}
           </a>
         </li>
         <li>
@@ -37,11 +31,8 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="i"
-              alt="LinkedIn icon"
-              src="https://img.icons8.com/offices/40/000000/linkedin.png"
-            />
+            <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+            {/* src="https://img.icons8.com/offices/40/000000/linkedin.png" */}
           </a>
         </li>
         <li>
@@ -50,11 +41,8 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="i"
-              alt="Stack Overflow icon"
-              src="https://img.icons8.com/officexs/40/000000/whatsapp.png"
-            />
+            <i className="fab fa-github" aria-hidden="true"></i>
+            {/* src="https://img.icons8.com/officexs/40/000000/whatsapp.png" */}
           </a>
         </li>
         <li>
@@ -63,11 +51,8 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="i"
-              alt="Gmail icon"
-              src="https://img.icons8.com/fluency/48/000000/important-mail.png"
-            />
+            <i className="fas fa-envelope" aria-hidden="true"></i>
+            {/* src="https://img.icons8.com/fluency/48/000000/important-mail.png" */}
           </a>
         </li>
         <li>
@@ -76,11 +61,8 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="i"
-              alt="Facebook icon"
-              src="https://img.icons8.com/office/40/000000/facebook.png"
-            />
+            <i className="fab fa-github" aria-hidden="true"></i>
+            {/* src="https://img.icons8.com/office/40/000000/facebook.png" */}
           </a>
         </li>
       </ul>
