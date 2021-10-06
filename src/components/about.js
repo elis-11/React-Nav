@@ -1,7 +1,7 @@
-import "../scss/ about.scss";
+import "../scss/about.scss";
 import Skills from "./skills";
 
-const SkillsArray = [
+const skillsArray = [
   {
     icon: "",
     title: "Web Developer",
@@ -37,8 +37,8 @@ function About() {
         <p></p>
       </div>
       <div className="skills-card-wrapper">
-        {skillsArray.map((skillsCardEl)=>{
-          return <Skills killsCardEl={skillsCardEl} />
+        {skillsArray.map((skillsCardEl, index)=>{
+          return <Skills killsCardEl={skillsCardEl} key={index} />
         })}
       </div>
     </div>

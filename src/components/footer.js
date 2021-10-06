@@ -2,6 +2,7 @@ import "../scss/footer.scss";
 
 function Footer() {
   return (
+    //TO DO UPDATE POSITION
     <footer>
       <ul className="footer">
         <li>
@@ -32,7 +33,7 @@ function Footer() {
         </li>
         <li>
           <a
-            href="www.linkedin.com/in/eliza.arzanukaeva"
+            href="https://www.linkedin.com/in/eliza-arzanukaeva/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -58,7 +59,7 @@ function Footer() {
         </li>
         <li>
           <a
-            href="https://mail.com/eliza.arzanukaeva"
+            href="mailto:eliza.arzanukaeva@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -8,6 +8,7 @@
   left: 0;
   ul {
     width: 100%;
+    display: flex;
 
     li i {
       padding: 10px;
@@ -16,6 +17,9 @@
     }
     li i:hover {
       box-shadow: 2px 2px 4px var(--main-dark);
+      width: 30px;
+      height: 30px;
+      opacity: 0.5;
     }
   }
 }
