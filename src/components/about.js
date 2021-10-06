@@ -36,14 +36,13 @@ function About() {
         <p></p>
         <p></p>
       </div>
-      <div>
-        {skillsArray.map}
-        <Skills title="Front End" />
-        <Skills title="Desugn" />
-        <Skills title="Marketing" />
+      <div className="skills-card-wrapper">
+        {skillsArray.map((skillsCardEl)=>{
+          return <Skills killsCardEl={skillsCardEl} />
+        })}
       </div>
     </div>
-  );
+  )
 }
 
 export default About;

@@ -1,23 +1,24 @@
-// import "../scss/ skills.scss";
+import "../scss/ skills.scss";
 
-// function Skills() {
-//   return (
-//     <div className="about-component">
-//       <h2>Skills</h2>
-//       <h3>hi, I'm Eliza a web developer.</h3>
-//       <h3>Nice to meet you</h3>
-//       <div>
-//         <p>lorem</p>
-//         <p>lorem</p>
-//         <p>lorem</p>
-//       </div>
-//       <div>
-//         <Skills title="Front End" />
-//         <Skills title="Design" />
-//         <Skills title="Marketing" />
-//       </div>
-//     </div>
-//   );
-// }
+function Skills(props) {
+  return (
+    <div className="skills-component">
+      <p>{props.skillsCardEl.title}</p>
+      <p>{props.skillsCardEl.description}</p>
+      <p>{props.skillsCardEl.listTitle}</p>
+      <div>
+        {props.skillsCardEl.list.map((listEl) => {
+          return <p>{listEl}</p>;
+        })}
+      </div>
+      <div>
+        <p>{props.skillsCardEl.toolsTitle}</p>
+        {props.skillsCardEl.tools.map((listEl) => {
+          return <p>{toolsEl}</p>;
+        })}
+      </div>
+    </div>
+  );
+}
 
-// export default Skills;
+export default Skills;
