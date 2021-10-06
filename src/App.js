@@ -6,8 +6,9 @@ import Projects from "./components/projects";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Loader from "./components/loader";
-import mountainBG from "./assets/mountain-bg.jpg";
+import Footer from "./components/footer";
 //TODO : UPDATE MONTAINBG
+import mountainBG from "./assets/mountain-bg.jpg";
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
         ) : (
           <Loader />
         )}
+        {/* FOOTER */}
+        <Footer />
       </div>
     </Router>
   );
