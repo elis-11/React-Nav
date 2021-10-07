@@ -5,7 +5,9 @@
 /.pnp
 .pnp.js
 
+#extra-for-me
 F-A-Icons.md
+reserve.node_modules
 
 # testing
 /coverage
