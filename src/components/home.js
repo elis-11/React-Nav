@@ -4,7 +4,7 @@ import "../scss/home.scss";
 function Home(props) {
   return (
     <div
-      className="page-component home-component"
+      className="home-component"
       style={{ backgroundImage: `url(${props.mountainBG})` }}
     >
       <h2>React Router Dom</h2>

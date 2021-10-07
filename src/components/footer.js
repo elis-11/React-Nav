@@ -3,8 +3,18 @@ import "../scss/footer.scss";
 function Footer() {
   return (
     //TO DO UPDATE POSITION
-    <footer>
-      <ul className="footer">
+    <footer className="footer-component">
+      <ul>
+      <li>
+          <a
+            href="mailto:eliza.arzanukaeva@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fas fa-envelope" aria-hidden="true"></i>
+            {/* src="https://img.icons8.com/fluency/48/000000/important-mail.png" */}
+          </a>
+        </li>
         <li>
           <a
             href="https://github.com/elis-11"
@@ -43,16 +53,6 @@ function Footer() {
           >
             <i className="fab fa-github" aria-hidden="true"></i>
             {/* src="https://img.icons8.com/officexs/40/000000/whatsapp.png" */}
-          </a>
-        </li>
-        <li>
-          <a
-            href="mailto:eliza.arzanukaeva@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fas fa-envelope" aria-hidden="true"></i>
-            {/* src="https://img.icons8.com/fluency/48/000000/important-mail.png" */}
           </a>
         </li>
         <li>
