@@ -1,6 +1,5 @@
 import "../scss/about.scss";
 import Skills from "./skills";
-
 const skillsArray = [
   {
     icon: "fab fa-dev",
@@ -43,14 +42,26 @@ const skillsArray = [
 function About() {
   return (
     <div className="about-component">
-      <h2>About</h2>
-      <h3>hi, I'm Eliza a web developer.</h3>
-      <h3>Nice to meet you</h3>
-      <div>
-        <p>Tralala</p>
-        <p>Tralala</p>
-        <p>Tralala</p>
+      {/* <h2>About</h2> */}
+      <h2>Hi, I’m Eliza. Nice to meet you.</h2>
+      <div className="about-text-wrapper">
+        <p>
+          However, I'm at the beginning of my Web development journey,I'm
+          quietly confident, naturally curious, and continuously working on
+          improving my skills.
+        </p>
+        <p>
+          Currently, I'm a student at the Digital Career Institute and following
+          graduating I would like to gain my first experiences as a Front-end
+          developer and Web designer.
+        </p>
+        <p>
+          I'm interested in freelance and would be happy to work remotely for
+          agencies,consult for startups, and collaborate with talented people to
+          create digital products for both business and consumer use.
+        </p>
       </div>
+      <h2>My Skills</h2>
       <div className="skills-card-wrapper">
         {skillsArray.map((skillsCardEl, index) => {
           return <Skills skillsCardEl={skillsCardEl} key={index} />;

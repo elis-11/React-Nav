@@ -4,7 +4,6 @@ import Navbar from "./components/navbar";
 import Home from "./components/home";
 import Projects from "./components/projects";
 import About from "./components/about";
-import Contact from "./components/contact";
 import Loader from "./components/loader";
 import Footer from "./components/footer";
 //TODO : UPDATE MONTAINBG
@@ -24,9 +23,6 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
-            </Route>
-            <Route path="/contact">
-              <Contact />
             </Route>
             <Route path="/">
               <Home mountainBG={mountainBG} />
