@@ -7,7 +7,7 @@ function Navbar() {
       <ul className="navbar">
         <li>
           <Link className="navbar-link" to="/">
-            <h1>HOME</h1>
+            <h1>MP-Design</h1>
           </Link>
         </li>
         <li>
@@ -18,11 +18,6 @@ function Navbar() {
         <li>
           <Link className="navbar-link" to="/about">
             About
-          </Link>
-        </li>
-        <li>
-          <Link className="navbar-link" to="/contact">
-            Contact
           </Link>
         </li>
       </ul>
