@@ -2,24 +2,35 @@
   display: flex;
   justify-content: center;
   position: absolute;
-  /* border: solid 1px red; */
   top: 0;
   right: 0;
   left: 0;
+}
 
-  li {
-    padding: 5px;
-    margin: 10px;
+.navbar li {
+  padding: 5px;
+  margin: 10px;
+}
 
-    .navbar-link {
-      color: var(--main-bright);
-      text-decoration: none;
-      font-weight: bold;
-      text-shadow: 2px 2px 4px var(--main-dark);
-
-      :hover {
-        color: var(--main-grey);
-      }
-    }
+@media only screen and (max-width: 300px) {
+  .navbar li {
+    margin: 0;
   }
+}
+
+@media only screen and (max-width: 250px) {
+  .navbar li {
+    font-size: 14px;
+  }
+}
+
+.navbar li .navbar-link {
+  color: var(--main-bright);
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px var(--main-dark);
+}
+
+.navbar li .navbar-link:hover {
+  color: var(--main-grey);
 }
