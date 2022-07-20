@@ -5,7 +5,7 @@ function Footer() {
     //TO DO UPDATE POSITION
     <footer className="footer-component">
       <ul>
-      <li>
+        <li>
           <a
             href="mailto:eliza.arzanukaeva@gmail.com"
             target="_blank"
@@ -43,26 +43,6 @@ function Footer() {
           >
             <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             {/* src="https://img.icons8.com/offices/40/000000/linkedin.png" */}
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/elis-11"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-github" aria-hidden="true"></i>
-            {/* src="https://img.icons8.com/officexs/40/000000/whatsapp.png" */}
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://facebook.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-github" aria-hidden="true"></i>
-            {/* src="https://img.icons8.com/office/40/000000/facebook.png" */}
           </a>
         </li>
       </ul>

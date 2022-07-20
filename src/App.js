@@ -6,8 +6,7 @@ import Projects from "./components/projects";
 import About from "./components/about";
 import Loader from "./components/loader";
 import Footer from "./components/footer";
-//TODO : UPDATE MONTAINBG
-import mountainBG from "./assets/mountain-bg.jpg";
+import cityBG from "./assets/city-bg.jpg";
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
         {/* NAVBAR */}
         <Navbar />
         {/* PAGES */}
-        {mountainBG ? (
+        {cityBG ? (
           <Switch>
             <Route path="/projects">
               <Projects />
@@ -25,7 +24,7 @@ function App() {
               <About />
             </Route>
             <Route path="/">
-              <Home mountainBG={mountainBG} />
+              <Home cityBG={cityBG} />
             </Route>
           </Switch>
         ) : (

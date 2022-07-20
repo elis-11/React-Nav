@@ -5,7 +5,7 @@ function Home(props) {
   return (
     <div
       className="home-component"
-      style={{ backgroundImage: `url(${props.mountainBG})` }}
+      style={{ backgroundImage: `url(${props.cityBG})` }}
     >
       <h2>
         Welcome, I design and code beautifully simple things, and I love what I
